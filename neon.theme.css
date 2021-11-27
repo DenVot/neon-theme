@@ -6,8 +6,7 @@
  * @source https://github.com/DenVot/copilot-better-discord-theme
 */
 
-@import url("https://cdn.jsdelivr.net/gh/denvot/neon-theme/src/code-style.css");
-@import url("https://cdn.jsdelivr.net/gh/denvot/neon-theme/src/main-style.css");
+@import url("https://cdn.jsdelivr.net/gh/denvot/neon-theme/imports.css");
 
 :root {
     --main-color: rgb(14, 16, 22);
