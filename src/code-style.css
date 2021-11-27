@@ -1,0 +1,92 @@
+.codeBlockLang-O_f4hr {
+    background: rgb(82, 82, 82);
+    padding: 1px;
+    border-radius: 1px;
+}
+
+.hljs-built_in {
+    color: rgb(206, 18, 253);
+    font-weight: 1000;
+}
+
+.hljs-keyword,
+.hljs-name,
+.hljs-selector-class {
+    color: rgb(139, 18, 253);
+    font-weight: 1000;
+}
+
+.hljs-string {
+    font-style: italic;
+}
+
+.hljs-title {
+    color: rgb(240, 160, 11);
+}
+
+.hljs-attr {
+    text-decoration: underline;
+}
+
+code {
+    position: relative;
+    box-shadow: rgb(197, 36, 230) 10 10 !important;
+    padding: 10px !important;
+}
+
+code::before {
+    position: absolute;
+    content: "";
+    color: rgb(139, 18, 253);        
+    height: 30px;
+    right: 10px;
+}
+
+code[class$="cs"]::before,
+code[class$="csharp"]::before {
+    content: "C#";
+}
+
+code[class$="js"]::before,
+code[class$="javascript"]::before {
+    content: "JS";
+}
+
+code[class$="py"]::before,
+code[class$="python"]::before {
+    content: "Python";
+}
+
+code[class$="c++"]::before,
+code[class$="cpp"]::before {
+    content: "C++";
+}
+
+
+code[class$="c"]::before {
+    content: "C";
+}
+
+code[class$="excel"]::before {
+    content: "Excel";
+}
+
+code[class$="json"]::before {
+    content: "JSON";
+}
+
+code[class$="xml"]::before {
+    content: "XML";
+}
+
+code[class$="html"]::before {
+    content: "HTML";
+}
+
+code[class$="css"]::before {
+    content: "CSS";
+}
+
+code[class$="scss"]::before {
+    content: "SCSS";
+}
